@@ -66,11 +66,16 @@ function App() {
             <Cart/>
           </ProtectedRoute>}/>
           
-          <Route path='/cart2' element={<Cart2/>}/>
+         
+        
+          <Route path='/products' element={<ProtectedRoute>
+            <Products />
+          </ProtectedRoute>}/>
+        
 
         <Route path='/' exact element={<Home />} />
         <Route path='/services' element={<Services />} />
-        <Route path='/products' element={<Products />} />
+        
         <Route path='/contact-us' element={<ContactUs />} />
         <Route path='/sign-up' element={<SignUp />} />
         <Route path='/marketing' element={<Marketing />} />

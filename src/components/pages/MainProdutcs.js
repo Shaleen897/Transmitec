@@ -19,7 +19,6 @@ export default function MainProducts(props) {
 
   const {products, addCart } = props;
 
-  const { user } = useUserAuth();
 
  
   return (

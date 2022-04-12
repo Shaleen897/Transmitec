@@ -29,17 +29,19 @@ export default function Product(props) {
 
 
 
-   const usersCollectionRef = collection(db, `user/${user.uid}/cart`);
-
-   useEffect(() => {
-     const getPedidos = async () => {
-       const data = await getDocs(usersCollectionRef);
-       setPedidos(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
-     };
- 
-     getPedidos();
-   });
+  const usersCollectionRef = collection(db, `user/${user.uid}/cart`);
   
+ 
+
+ useEffect(() => {
+  const getPedidos = async () => {
+    const data = await getDocs(usersCollectionRef);
+    setPedidos(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
+  };
+
+  getPedidos();
+});
+
 
    function pbuttonPedidos() {
     Pedidos.forEach(pedido =>{
