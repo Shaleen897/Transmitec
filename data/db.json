@@ -1,0 +1,25 @@
+{
+   "servicios":[ {
+        "id": 1,
+        "nombre": "Acta de Nacimiento",
+        "precio": 140,
+        "descrpcion": "Acta de Nacimiento dominicana "
+    },
+    {
+        "id": 2,
+        "nombre": "Acta de Matrimonio",
+        "precio": 160,
+        "descrpcion": "Acta de Matrimonio "
+    },{
+        "id": 3,
+        "nombre": "Acta de difuncion",
+        "precio": 150,
+        "descrpcion": "Acta de difuncion "
+    },{
+        "id": 4,
+        "nombre": "Certificacion de Vivienda",
+        "precio": 200,
+        "descrpcion": "Certificacion de Vivienda"
+    }
+ ]
+}
