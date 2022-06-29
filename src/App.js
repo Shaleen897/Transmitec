@@ -16,7 +16,6 @@ import { UserAuthContextProvider } from "./context/UserAuthContext";
 import ProtectedRoute from "./ProtectedRoute";
 import Profile from './components/pages/Profile';
 import Cart from './components/pages/Cart';
-import Cart2 from './components/pages/Cart2';
 
 // toast notification
  import 'react-toastify/dist/ReactToastify.css';
