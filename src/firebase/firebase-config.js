@@ -4,12 +4,12 @@ import { getFirestore } from "@firebase/firestore";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyASUDcz3cy7Nff_QdlBFn9TAvwq2IR30Rs",
-  authDomain: "transmitec-e79ca.firebaseapp.com",
-  projectId: "transmitec-e79ca",
-  storageBucket: "transmitec-e79ca.appspot.com",
-  messagingSenderId: "446719050300",
-  appId: "1:446719050300:web:17ba7fd5705c2d84b9f939"
+  apiKey: "AIzaSyD2HSlHpbARczV-QqYJyH1GQ9gQMx6y_Q0",
+  authDomain: "school-syste.firebaseapp.com",
+  projectId: "school-syste",
+  storageBucket: "school-syste.appspot.com",
+  messagingSenderId: "285172462328",
+  appId: "1:285172462328:web:ddd04a5ded17da008d410d"
 };
 
 const app = initializeApp(firebaseConfig);

@@ -36,12 +36,14 @@ export default function ContactUs() {
 
   const usersContact = collection(db, "Contacts");
 
-  const createContact = async () => {
+  const createContact = async (e) => {
+    e.preventDefault();
     handleClick();
 
     if(newName !== "" && newEmail !== "" && newMensaje !== ""){
     let date = new Date();
     await addDoc(usersContact, { name: newName, email: newEmail, mensaje: newMensaje, date: date });
+    
     toast.success(` ${newName} Tu Informacion fue Enviada! `, {
       position: toast.POSITION.TOP_RIGHT
     });
